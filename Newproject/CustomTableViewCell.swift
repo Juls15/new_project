@@ -49,6 +49,7 @@ class CustomTableViewCell: UITableViewCell {
         self.label.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -12).isActive = true
     }
     
+    ///hui///
     
     func setUpLayoutOfView() {
         self.contentView.addSubview(view)
