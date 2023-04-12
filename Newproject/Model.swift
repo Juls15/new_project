@@ -27,7 +27,8 @@ struct AuthBody: Codable {
 
 
 struct AuthToken: Codable {
-    var token: String?
+    var result: String?
+    var error: String?
 }
 
 

@@ -110,12 +110,20 @@ class ViewController: UIViewController {
         params["password"] = self.password.text
         
         NetworkManager.networkItem.login(param: params) { authToken in
-            self.token = (authToken as! String)
-            debugPrint(self.token!)
+            if let error = authToken.error {
+                let vc = UIAlertController(title: "error", message: error, preferredStyle: .alert)
+                vc.addAction(UIAlertAction(title: "ok", style: .cancel))
+                DispatchQueue.main.async {
+                    self.present(vc, animated: true)
+                }
+            }else if let token = authToken.result {
+                self.token = token
+                debugPrint(token)
+            }
         }
         
-        let vc = MainViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
+//        let vc = MainViewController()
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
