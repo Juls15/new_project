@@ -16,7 +16,6 @@ enum RequestManager {
     case login
     
     
-    
     var params: [String: Any] {
         switch self {
         case .get:
@@ -34,9 +33,11 @@ enum RequestManager {
         }
     }
     
+    
     private var baseUrl: String {
         return "http://81.27.244.69/traffic/"
     }
+    
     
     var url: String {
         switch self {
@@ -54,6 +55,7 @@ enum RequestManager {
             return "\(baseUrl)login"
         }
     }
+    
     
     var method: String {
         switch self {

@@ -191,7 +191,7 @@ class ItemViewController: UIViewController, UITextFieldDelegate, UIPickerViewDel
     
     
     private func addNewTaskToArray(savedTask: Task) {
-        let param  = ["name": savedTask.name!, "description": savedTask.description!, "type": savedTask.type!] as! [String : Any]
+        let param  = ["name": savedTask.name!, "description": savedTask.description!, "type": savedTask.type!] as [String : Any]
         NetworkManager.networkItem.addSession(param: param) { task in
             self.delegate?.setTask(task: task)
         }
