@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     let username = UITextField()
     let password = UITextField()
     
+    var token: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,6 @@ class ViewController: UIViewController {
         setUpLayoutOfTextField()
         setUpLayoutOfButton()
     }
-    
     
     
     func setUpLayoutOfTextField() {
@@ -51,9 +51,8 @@ class ViewController: UIViewController {
     }
     
     
-    
     func setUpLayoutOfButton() {
-        self.button.addTarget(self, action: #selector(tapButton), for: .touchUpInside)
+        self.button.addTarget(self, action: #selector(loginButton), for: .touchUpInside)
         self.view.addSubview(self.button)
         self.button.translatesAutoresizingMaskIntoConstraints = false
         self.button.topAnchor.constraint(equalTo: self.password.bottomAnchor, constant: 60).isActive = true
@@ -64,7 +63,7 @@ class ViewController: UIViewController {
         self.button.backgroundColor = .systemMint
         self.button.setTitle("Login", for: .normal)
         
-        self.button1.addTarget(self, action: #selector(tapButton1), for: .touchUpInside)
+        self.button1.addTarget(self, action: #selector(registerButton), for: .touchUpInside)
         self.view.addSubview(self.button1)
         self.button1.translatesAutoresizingMaskIntoConstraints = false
         self.button1.topAnchor.constraint(equalTo: self.password.bottomAnchor, constant: 60).isActive = true
@@ -75,25 +74,48 @@ class ViewController: UIViewController {
         self.button1.backgroundColor = .systemMint
         self.button1.setTitle("Register", for: .normal)
     }
+
     
-    
-    @objc func tapButton() {
+    @objc func registerButton() {
+        
+        var params: [String: String] = [:]
+        
+        params["username"] = self.username.text
+        params["password"] = self.password.text
+        
+        NetworkManager.networkItem.register(param: params) { authToken in
+            self.token = authToken
+            debugPrint(self.token)
+//            NetworkManager.networkItem.setToken(authToken)
+        }
+        
+        
         let vc = MainViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
-
+//        let username = username.text
+//        UserDefaults.standard.set(username, forKey: "name")
+//
+//        let password = password.text
+//        UserDefaults.standard.set(password, forKey: "password")
+//
+//        if let name = UserDefaults.standard.string(forKey: "password") {
+//            print(name)
     
-    @objc func tapButton1() {
-        let username = username.text
-        UserDefaults.standard.set(username, forKey: "name")
-        
-        let password = password.text
-        UserDefaults.standard.set(password, forKey: "password")
-        
-        if let name = UserDefaults.standard.string(forKey: "password") {
-            print(name)
-        }
-    }
 
+    @objc func loginButton() {
+        var params: [String: Any] = [:]
+        
+        params["username"] = self.username.text
+        params["password"] = self.password.text
+        
+        NetworkManager.networkItem.login(param: params) { authToken in
+            self.token = (authToken as! String)
+            debugPrint(self.token!)
+        }
+        
+        let vc = MainViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

@@ -21,6 +21,7 @@ class MainViewController: UIViewController {
         }
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,7 +34,6 @@ class MainViewController: UIViewController {
         self.tableView.register(CustomTableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.delegate = self
         tableView.dataSource = self
-        
         
         tableView.backgroundColor = .white
         
@@ -83,6 +83,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource{
 
 
 extension MainViewController: MainVCProtocol {
+
     func getNavigation() -> UINavigationController? {
         guard let nc = self.navigationController else { return nil}
         return nc
@@ -99,4 +100,5 @@ extension MainViewController: MainVCProtocol {
     func deleteTask(index: Int) {
         self.tasks.remove(at: index)
     }
+     
 }

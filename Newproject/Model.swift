@@ -16,12 +16,20 @@ struct Task: Codable {
     var status: Bool?
     var user: String?
     var type: Int?
+    var token: String?
 }
 
+
 struct AuthBody: Codable {
-    let username: String
-    let password: String
+    var username: String
+    var password: String
 }
+
+
+struct AuthToken: Codable {
+    var token: String?
+}
+
 
 enum Category: String, Codable {
     case home = "Дом"
@@ -31,6 +39,7 @@ enum Category: String, Codable {
     case friends = "Друзья"
     case holidays = "Отдых"
     case health = "Здоровье"
+    
     
     static func fromTypeToCat(type:Int) -> Category {
         switch type {
@@ -45,6 +54,7 @@ enum Category: String, Codable {
         }
     }
     
+    
     static func fromCatToType(category: Category) -> Int {
         switch category {
         case .home: return 1
@@ -55,10 +65,8 @@ enum Category: String, Codable {
         case .holidays: return 6
         case .health: return 7
         default: return 1
-            
         }
     }
-    
 }
 
 
