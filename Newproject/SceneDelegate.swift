@@ -15,8 +15,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         self.window = UIWindow(windowScene: windowScene as! UIWindowScene)
-        let vc = ViewController()
-        let nc = UINavigationController(rootViewController: vc)
+//        let vc = ViewController()
+//        let nc = UINavigationController(rootViewController: vc)
+      
+        if UserDefaults.standard.string(forKey: "token") != nil {
+            let vc = MainViewController()
+            self.setRootNC(rootVC: vc)
+        } else {
+            let authVC = ViewController()
+            self.setRootNC(rootVC: authVC)
+        }
+    }
+    
+    func setRootNC(rootVC: UIViewController) {
+        let nc = UINavigationController(rootViewController: rootVC)
         self.window?.rootViewController = nc
         self.window?.makeKeyAndVisible()
     }

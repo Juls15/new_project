@@ -12,6 +12,7 @@ import UIKit
 class MainViewController: UIViewController {
     
     var tableView = UITableView()
+    let logoutButton = UIButton()
     
     var tasks: [Task] = [] {
         didSet {
@@ -24,9 +25,13 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        NetworkManager.networkItem.getSession{ items in
-            self.tasks = items
+        NetworkManager.networkItem.setGetTokenFromUserDefaults()
+        NetworkManager.networkItem.getSession{ data in
+            if let result = data.result {
+                self.tasks = result
+            } else if let error = data.error {
+                print(error)
+            }
         }
         
         self.view.backgroundColor = .white
@@ -38,18 +43,33 @@ class MainViewController: UIViewController {
         tableView.backgroundColor = .white
         
         setUpMenuButton()
+        setUpLogoutButton()
     }
+
     
-    func setUpMenuButton(){
+    func setUpMenuButton() {
         let menuBtn = UIButton()
         let img = UIImage(named:"plus.png")
         menuBtn.setImage(img, for: .normal)
-        menuBtn.addTarget(self, action: #selector(tapButton), for: .touchUpInside)
+        menuBtn.addTarget(self, action: #selector(addButtonOn), for: .touchUpInside)
 
         let menuBarItem = UIBarButtonItem(customView: menuBtn)
         menuBarItem.customView?.widthAnchor.constraint(equalToConstant: 35).isActive = true
         menuBarItem.customView?.heightAnchor.constraint(equalToConstant: 35).isActive = true
         self.navigationItem.rightBarButtonItem = menuBarItem
+    }
+    
+    
+    func setUpLogoutButton() {
+        self.logoutButton.backgroundColor = .systemMint
+        self.logoutButton.addTarget(self, action: #selector(logoutButtonOn), for: .touchUpInside)
+        self.logoutButton.setTitle("Logout", for: .normal)
+        self.logoutButton.layer.cornerRadius = 10
+        
+        let menuBarItem = UIBarButtonItem(customView: logoutButton)
+        menuBarItem.customView?.widthAnchor.constraint(equalToConstant: 80).isActive = true
+        menuBarItem.customView?.heightAnchor.constraint(equalToConstant: 35).isActive = true
+        self.navigationItem.leftBarButtonItem = menuBarItem
     }
   
     
@@ -59,9 +79,17 @@ class MainViewController: UIViewController {
     }
     
     
-    @objc func tapButton() {
+    @objc func addButtonOn() {
         let vc = ItemViewController(delegate: self)
         self.navigationController?.present(vc, animated: true)
+    }
+    
+    
+    @objc func logoutButtonOn() {
+        UserDefaults.standard.removeObject(forKey: "token")
+        let sd = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate
+        let authVC = ViewController()
+        sd?.setRootNC(rootVC: authVC)
     }
 }
 

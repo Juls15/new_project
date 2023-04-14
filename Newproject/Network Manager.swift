@@ -14,16 +14,39 @@ class NetworkManager {
     private var token: String?
     
     
-//    func setToken(token) {
-//        self.token = token
-//    }
+    func setToken(token: String) {
+        self.token = token
+    }
     
-    
-    func getSession(completion: @escaping ([Task]) -> Void) {
-        let req: RequestManager = .get
-        guard let url = URL(string: req.url) else {
+    func setGetTokenFromUserDefaults() {
+        if UserDefaults.standard.string(forKey: "token") != nil {
+            setToken(token: UserDefaults.standard.string(forKey: "token")!)
+        } else {
             return
         }
+    }
+//
+    
+    func getSession(completion: @escaping (Tasks) -> Void) {
+        
+        guard let token = self.token else { return }
+        
+        var allParams: [String : Any] = ["token": token]
+        
+        let req: RequestManager = .get
+        guard let url = URL(string: req.url + "?token=" + token) else {
+            return
+        }
+        var request = URLRequest(url: url)
+        print(request)
+        guard let httpBody = try? JSONSerialization.data(withJSONObject: allParams, options: .prettyPrinted) else {
+            return
+        }
+        request.httpBody = httpBody
+        request.setValue("application/json", forHTTPHeaderField: "content-type")
+        print(allParams)
+        request.setValue("application/json", forHTTPHeaderField: "accept")
+        request.httpMethod = req.method
         let session = URLSession.shared
         session.dataTask(with: url) { (data, response, error) in
             if let response = response {
@@ -31,7 +54,7 @@ class NetworkManager {
             }
             if let parsData = data {
                 guard let cases = try?
-                        JSONDecoder().decode([Task].self, from: parsData) else { return }
+                        JSONDecoder().decode(Tasks.self, from: parsData) else { return }
                 print(12345678, parsData)
                 completion(cases)
             }
@@ -39,23 +62,24 @@ class NetworkManager {
     }
     
     
-    
     func updateSession(param: [String : Any], completion: @escaping (Task) -> Void) {
-        let req: RequestManager = .update(param: param)
+        
+        guard let token = self.token else { return }
+            
+        var allParams: [String : Any] = param
+        allParams["token"] = token
+        let req: RequestManager = .update(param: allParams)
         guard let url = URL(string: req.url) else {
             return
         }
-        ///token != nil (
-        ///param[]
-        ///)
         var request = URLRequest(url: url)
         print(request)
-        guard let httpBody = try? JSONSerialization.data(withJSONObject: param, options: .prettyPrinted) else {
+        guard let httpBody = try? JSONSerialization.data(withJSONObject: allParams, options: .prettyPrinted) else {
             return
         }
         request.httpBody = httpBody
         request.setValue("application/json", forHTTPHeaderField: "content-type")
-        print(param)
+        print(allParams)
         request.setValue("application/json", forHTTPHeaderField: "accept")
         request.httpMethod = req.method
         let session = URLSession.shared
@@ -73,7 +97,10 @@ class NetworkManager {
     
     
     func addSession(param: [String: Any], completion: @escaping (Task) -> Void) {
-        let req: RequestManager = .add(param: param)
+        guard let token = self.token else { return }
+        var allParams: [String: Any] = param
+        allParams["token"] = token
+        let req: RequestManager = .add(param: allParams)
         guard let url = URL(string: req.url) else {
             return 
         }
@@ -119,7 +146,7 @@ class NetworkManager {
     }
     
     
-    func register(param: [String: Any], completion: @escaping (String?) -> Void) {
+    func register(param: [String: Any], completion: @escaping (AuthToken) -> Void) {
         let req: RequestManager = .register
         guard let url = URL(string: req.url) else { return }
         var request = URLRequest(url: url)
@@ -135,7 +162,7 @@ class NetworkManager {
                    }
             if let parsData = data {
             guard let cases = try?
-                    JSONDecoder().decode(String.self, from: parsData) else { return }
+                    JSONDecoder().decode(AuthToken.self, from: parsData) else { return }
                 completion(cases)
             }
         }.resume()

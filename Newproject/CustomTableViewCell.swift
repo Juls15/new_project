@@ -90,11 +90,11 @@ class CustomTableViewCell: UITableViewCell {
         self.index = index
         self.task = task
         self.label.text = task.name
-        if task.status! == true {
-            self.view.backgroundColor = .green
-        } else {
-            self.view.backgroundColor = .white
-        }
+//        if task.status! == true {
+//            self.view.backgroundColor = .green
+//        } else {
+//            self.view.backgroundColor = .white
+//        }
         self.label.text = task.name
     }
 

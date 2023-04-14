@@ -9,14 +9,21 @@ import Foundation
 import UIKit
 
 
+
+struct Tasks: Codable {
+    var result: [Task]?
+    var error: String?
+}
+
+
 struct Task: Codable {
     var id: Int?
     var name: String?
     var description: String?
-    var status: Bool?
-    var user: String?
+//    var status: Bool?
+//    var user: String?
     var type: Int?
-    var token: String?
+//    var token: String?
 }
 
 
@@ -27,7 +34,8 @@ struct AuthBody: Codable {
 
 
 struct AuthToken: Codable {
-    var token: String?
+    var result: String?
+    var error: String?
 }
 
 
