@@ -184,14 +184,15 @@ class ItemViewController: UIViewController, UITextFieldDelegate, UIPickerViewDel
         if let changedCategory {
             type = self.fromCatToType(category: changedCategory)
         }
-        let savedTask = Task(id: nil, name: savedTaskName, description: savedTaskComment, status: true, type: type)
+        let token = UserDefaults.standard.string(forKey: "token")
+        let savedTask = Task(id: nil, name: savedTaskName, description: savedTaskComment, type: type)
         self.addNewTaskToArray(savedTask: savedTask)
         self.dismiss(animated: true)
     }
     
     
     private func addNewTaskToArray(savedTask: Task) {
-        let param  = ["name": savedTask.name!, "description": savedTask.description!, "type": savedTask.type!] as [String : Any]
+        let param  = ["name": savedTask.name!, "description": savedTask.description!, "type": savedTask.type!, "token": UserDefaults.standard.string(forKey: "token")!] as [String : Any]
         NetworkManager.networkItem.addSession(param: param) { task in
             self.delegate?.setTask(task: task)
         }
@@ -237,8 +238,10 @@ class ItemViewController: UIViewController, UITextFieldDelegate, UIPickerViewDel
     
     @objc func saveButtonOn() {
         if self.index != nil {
-            let savedTask = Task(id: self.task?.id,  name: String(textFieldSaved.text ?? ""), description: String(textFieldComments.text ?? ""), status: true, type: fromCatToType(category: self.changedCategory ?? .home))
-                self.editTask(savedTask: savedTask)
+        
+            let savedTask = Task(id: self.task?.id,  name: String(textFieldSaved.text ?? ""), description: String(textFieldComments.text ?? ""), type: fromCatToType(category: self.changedCategory ?? .home))
+           
+            self.editTask(savedTask: savedTask)
         } else {
                 self.createNewTask()
         }

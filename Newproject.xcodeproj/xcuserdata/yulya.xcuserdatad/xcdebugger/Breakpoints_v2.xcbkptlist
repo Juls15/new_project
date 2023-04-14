@@ -14,10 +14,42 @@
             filePath = "Newproject/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "tasks"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F3168626-25FB-4682-9693-10A08A64C0C8 - 86d94c16f74da7e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Newproject.MainViewController.tasks.didset : Swift.Array&lt;Newproject.Task&gt;"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  uuid = "F3168626-25FB-4682-9693-10A08A64C0C8 - 86d94c16f74da7e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in Newproject.MainViewController.tasks.didset : Swift.Array&lt;Newproject.Task&gt;"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,13 +62,13 @@
             filePath = "Newproject/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "editTask(index:task:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E5BDB2C6-A75C-423D-830E-C70981320897 - 2baa1948a3219c3d"
+                  uuid = "E5BDB2C6-A75C-423D-830E-C70981320897 - 2baa1948a32183db"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -46,12 +78,12 @@
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/MainViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
                   offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  uuid = "E5BDB2C6-A75C-423D-830E-C70981320897 - a58c0baa989d3688"
+                  uuid = "E5BDB2C6-A75C-423D-830E-C70981320897 - a58c0baa989d292c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -61,8 +93,8 @@
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/MainViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
                   offsetFromSymbolStart = "73">
                </Location>
             </Locations>
@@ -78,10 +110,42 @@
             filePath = "Newproject/ItemViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "212"
-            endingLineNumber = "212"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "editTaskInArray(savedTask:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FA49B06E-509F-4BD3-94C6-1F381F1372F6 - cc4ef642c07f6799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.ItemViewController.editTaskInArray(savedTask: Newproject.Task) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "1645">
+               </Location>
+               <Location
+                  uuid = "FA49B06E-509F-4BD3-94C6-1F381F1372F6 - cc4ef642c07f6799"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.ItemViewController.editTaskInArray(savedTask: Newproject.Task) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "1045">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -94,10 +158,42 @@
             filePath = "Newproject/ItemViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "215"
-            endingLineNumber = "215"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
             landmarkName = "editTaskInArray(savedTask:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A49B4DF7-0589-4D84-A96E-A1E9DCE911FC - cc4ef642c07f67fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.ItemViewController.editTaskInArray(savedTask: Newproject.Task) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "3024">
+               </Location>
+               <Location
+                  uuid = "A49B4DF7-0589-4D84-A96E-A1E9DCE911FC - cc4ef642c07f67fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.ItemViewController.editTaskInArray(savedTask: Newproject.Task) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "216"
+                  endingLineNumber = "216"
+                  offsetFromSymbolStart = "2567">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -110,10 +206,42 @@
             filePath = "Newproject/ItemViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "218"
-            endingLineNumber = "218"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "editTaskInArray(savedTask:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "79A1EB6D-A5C7-40C3-AB97-FF1265D030AD - cc4ef642c07f6443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.ItemViewController.editTaskInArray(savedTask: Newproject.Task) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "4013">
+               </Location>
+               <Location
+                  uuid = "79A1EB6D-A5C7-40C3-AB97-FF1265D030AD - cc4ef642c07f6443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.ItemViewController.editTaskInArray(savedTask: Newproject.Task) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "219"
+                  endingLineNumber = "219"
+                  offsetFromSymbolStart = "3670">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -126,56 +254,55 @@
             filePath = "Newproject/ItemViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "221"
-            endingLineNumber = "221"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
             landmarkName = "editTaskInArray(savedTask:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7DF3A351-1481-4A6F-94FE-7F8DB5D9B9D5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Model.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "AuthBody"
-            landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "7DF3A351-1481-4A6F-94FE-7F8DB5D9B9D5 - a0e34dd1e3b34d91"
+                  uuid = "E0469476-94C8-4B5F-B4F4-1795265FCC12 - cc4ef642c07f64a0"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.Category.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;Newproject.Category&gt;"
+                  symbolName = "Newproject.ItemViewController.editTaskInArray(savedTask: Newproject.Task) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Model.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "76">
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "4468">
                </Location>
                <Location
-                  uuid = "7DF3A351-1481-4A6F-94FE-7F8DB5D9B9D5 - c76f784704272f15"
+                  uuid = "E0469476-94C8-4B5F-B4F4-1795265FCC12 - 76cde427c342afb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.Category.rawValue.getter : Swift.String"
+                  symbolName = "closure #1 (Newproject.Task) -&gt; () in Newproject.ItemViewController.editTaskInArray(savedTask: Newproject.Task) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Model.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "47">
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "E0469476-94C8-4B5F-B4F4-1795265FCC12 - cc4ef642c07f64a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.ItemViewController.editTaskInArray(savedTask: Newproject.Task) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "4150">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -183,137 +310,92 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C789A63F-AF32-4FDE-A56A-3128433E0DA7"
+            uuid = "5E588303-A605-4023-9104-46EE53E43A51"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Newproject/ViewController.swift"
+            filePath = "Newproject/ItemViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "registerButton()"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "saveButtonOn()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C789A63F-AF32-4FDE-A56A-3128433E0DA7 - dc1cd506d672eb69"
+                  uuid = "5E588303-A605-4023-9104-46EE53E43A51 - cdad649049be85b3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.ViewController.registerButton() -&gt; ()"
+                  symbolName = "Newproject.ItemViewController.saveButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "962">
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "1655">
                </Location>
                <Location
-                  uuid = "C789A63F-AF32-4FDE-A56A-3128433E0DA7 - cd46f6af07d2194e"
+                  uuid = "5E588303-A605-4023-9104-46EE53E43A51 - cdad649049be855e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.registerButton() -&gt; ()"
+                  symbolName = "Newproject.ItemViewController.saveButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "55">
+                  startingLineNumber = "242"
+                  endingLineNumber = "242"
+                  offsetFromSymbolStart = "134">
                </Location>
                <Location
-                  uuid = "C789A63F-AF32-4FDE-A56A-3128433E0DA7 - cd46f6af07d2194e"
+                  uuid = "5E588303-A605-4023-9104-46EE53E43A51 - cdad649049be855e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.registerButton() -&gt; ()"
+                  symbolName = "Newproject.ItemViewController.saveButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "71">
+                  startingLineNumber = "242"
+                  endingLineNumber = "242"
+                  offsetFromSymbolStart = "1460">
                </Location>
                <Location
-                  uuid = "C789A63F-AF32-4FDE-A56A-3128433E0DA7 - cd46f6af07d2194e"
+                  uuid = "5E588303-A605-4023-9104-46EE53E43A51 - cdad649049be855e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.registerButton() -&gt; ()"
+                  symbolName = "Newproject.ItemViewController.saveButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "80">
+                  startingLineNumber = "242"
+                  endingLineNumber = "242"
+                  offsetFromSymbolStart = "131">
                </Location>
                <Location
-                  uuid = "C789A63F-AF32-4FDE-A56A-3128433E0DA7 - dc1cd506d672eb69"
+                  uuid = "5E588303-A605-4023-9104-46EE53E43A51 - cdad649049be855e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.ViewController.registerButton() -&gt; ()"
+                  symbolName = "Newproject.ItemViewController.saveButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "973">
-               </Location>
-               <Location
-                  uuid = "C789A63F-AF32-4FDE-A56A-3128433E0DA7 - dc1cd506d672eb69"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Newproject.ViewController.registerButton() -&gt; ()"
-                  moduleName = "Newproject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "736">
-               </Location>
-               <Location
-                  uuid = "C789A63F-AF32-4FDE-A56A-3128433E0DA7 - e2bcc3c852d828b6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.String) -&gt; () in Newproject.ViewController.registerButton() -&gt; ()"
-                  moduleName = "Newproject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "71">
-               </Location>
-               <Location
-                  uuid = "C789A63F-AF32-4FDE-A56A-3128433E0DA7 - 2ca25cd4087a166d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in Newproject.ViewController.registerButton() -&gt; ()"
-                  moduleName = "Newproject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
-                  offsetFromSymbolStart = "71">
+                  startingLineNumber = "242"
+                  endingLineNumber = "242"
+                  offsetFromSymbolStart = "816">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -321,92 +403,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "05B3036D-C067-43CB-9D42-FFCC7D0752C9"
+            uuid = "7A4F5F62-103C-443D-A2ED-A21D9143BC93"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Newproject/ViewController.swift"
+            filePath = "Newproject/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "loginButton()"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "logoutButtonOn()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "05B3036D-C067-43CB-9D42-FFCC7D0752C9 - 3d4f20c928da6535"
+                  uuid = "7A4F5F62-103C-443D-A2ED-A21D9143BC93 - ae500e11a0dadadd"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.loginButton() -&gt; ()"
+                  symbolName = "Newproject.MainViewController.logoutButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/MainViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "40">
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "723">
                </Location>
                <Location
-                  uuid = "05B3036D-C067-43CB-9D42-FFCC7D0752C9 - 1df42069f526de52"
+                  uuid = "7A4F5F62-103C-443D-A2ED-A21D9143BC93 - ae500e11a0dadb3a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.ViewController.loginButton() -&gt; ()"
+                  symbolName = "Newproject.MainViewController.logoutButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/MainViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "973">
-               </Location>
-               <Location
-                  uuid = "05B3036D-C067-43CB-9D42-FFCC7D0752C9 - 3d4f20c928da6512"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.loginButton() -&gt; ()"
-                  moduleName = "Newproject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "114"
-                  endingLineNumber = "114"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "05B3036D-C067-43CB-9D42-FFCC7D0752C9 - 3d4f20c928da6535"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.loginButton() -&gt; ()"
-                  moduleName = "Newproject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "85">
-               </Location>
-               <Location
-                  uuid = "05B3036D-C067-43CB-9D42-FFCC7D0752C9 - 3d4f20c928da6535"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.loginButton() -&gt; ()"
-                  moduleName = "Newproject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "76">
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "65">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -414,77 +451,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7B86C689-1C82-47BB-9E3D-6D0B22713B51"
+            uuid = "6992EF35-9AE4-4C24-A7BC-F42F0FA683BB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Newproject/ViewController.swift"
+            filePath = "Newproject/ItemViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "loginButton()"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "saveButtonOn()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "7B86C689-1C82-47BB-9E3D-6D0B22713B51 - 3d4f20c928da6535"
+                  uuid = "6992EF35-9AE4-4C24-A7BC-F42F0FA683BB - cdad649049be84fd"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.loginButton() -&gt; ()"
+                  symbolName = "Newproject.ItemViewController.saveButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "40">
+                  startingLineNumber = "239"
+                  endingLineNumber = "239"
+                  offsetFromSymbolStart = "49">
                </Location>
                <Location
-                  uuid = "7B86C689-1C82-47BB-9E3D-6D0B22713B51 - 3d4f20c928da6512"
+                  uuid = "6992EF35-9AE4-4C24-A7BC-F42F0FA683BB - cdad649049be851c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.loginButton() -&gt; ()"
+                  symbolName = "Newproject.ItemViewController.saveButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "114"
-                  endingLineNumber = "114"
-                  offsetFromSymbolStart = "40">
+                  startingLineNumber = "240"
+                  endingLineNumber = "240"
+                  offsetFromSymbolStart = "49">
                </Location>
                <Location
-                  uuid = "7B86C689-1C82-47BB-9E3D-6D0B22713B51 - 3d4f20c928da6535"
+                  uuid = "6992EF35-9AE4-4C24-A7BC-F42F0FA683BB - cdad649049be851c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.loginButton() -&gt; ()"
+                  symbolName = "Newproject.ItemViewController.saveButtonOn() -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ItemViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "85">
-               </Location>
-               <Location
-                  uuid = "7B86C689-1C82-47BB-9E3D-6D0B22713B51 - 3d4f20c928da6535"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Newproject.AuthToken) -&gt; () in Newproject.ViewController.loginButton() -&gt; ()"
-                  moduleName = "Newproject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "76">
+                  startingLineNumber = "240"
+                  endingLineNumber = "240"
+                  offsetFromSymbolStart = "46">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -492,127 +514,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7FB90780-645C-4477-8AF9-4B0CD8EB47B9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "registerButton()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "33EDDFA3-C8C8-45E7-A970-76D629612238"
+            uuid = "7B2207C7-CC8C-4AC2-991C-EE6FAAB3C694"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Newproject/Network Manager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "058EEE8E-9025-4BED-8179-26C902AF150F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E7BA48FB-B718-493D-8204-6CAE74339E80"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9D62860E-B2C5-4E23-8952-C5B982106F04"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "ECFD8C13-BA81-4FE9-A272-4D319EDD48A9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
-            landmarkName = "register(param:completion:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getSession(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "ECFD8C13-BA81-4FE9-A272-4D319EDD48A9 - e70f77f7ac34c5b7"
+                  uuid = "7B2207C7-CC8C-4AC2-991C-EE6FAAB3C694 - 453d2792dc51d81f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "136"
-                  endingLineNumber = "136"
-                  offsetFromSymbolStart = "769">
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "322">
                </Location>
                <Location
-                  uuid = "ECFD8C13-BA81-4FE9-A272-4D319EDD48A9 - e70f77f7ac34c5b7"
+                  uuid = "7B2207C7-CC8C-4AC2-991C-EE6FAAB3C694 - 9422d9467fa8c860"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "136"
-                  endingLineNumber = "136"
-                  offsetFromSymbolStart = "853">
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "322">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -620,79 +562,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "90A01727-1C18-4988-867E-F456A8BC9A89"
+            uuid = "47F340D3-2F1E-47B7-A2A7-71034705A2FB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Newproject/Network Manager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "773737A1-B872-45ED-813B-339D474C4AF7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A9AB3BB-018B-42D7-9E2E-1D8ADB4EFB20"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "register(param:completion:)"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "getSession(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1A9AB3BB-018B-42D7-9E2E-1D8ADB4EFB20 - e9fd9632be1412aa"
+                  uuid = "47F340D3-2F1E-47B7-A2A7-71034705A2FB - 8953009cb87cefb8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "132"
-                  endingLineNumber = "132"
-                  offsetFromSymbolStart = "1506">
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1389">
                </Location>
                <Location
-                  uuid = "1A9AB3BB-018B-42D7-9E2E-1D8ADB4EFB20 - e70f77f7ac34c55a"
+                  uuid = "47F340D3-2F1E-47B7-A2A7-71034705A2FB - 8953009cb87cefb8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "291">
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1361">
+               </Location>
+               <Location
+                  uuid = "47F340D3-2F1E-47B7-A2A7-71034705A2FB - 52b5aad0ad556421"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1489">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -700,47 +625,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BB6DF64F-1C6A-4B60-A1FB-BB2BD45A7F65"
+            uuid = "D9E46C19-3C0E-4706-8B30-C11FDAA1D995"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Newproject/Network Manager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "register(param:completion:)"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getSession(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "BB6DF64F-1C6A-4B60-A1FB-BB2BD45A7F65 - e70f77f7ac34c55a"
+                  uuid = "D9E46C19-3C0E-4706-8B30-C11FDAA1D995 - 453d2792dc51d8d9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "291">
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "464">
                </Location>
                <Location
-                  uuid = "BB6DF64F-1C6A-4B60-A1FB-BB2BD45A7F65 - e70f77f7ac34c55a"
+                  uuid = "D9E46C19-3C0E-4706-8B30-C11FDAA1D995 - 9422d9467fa8c8a6"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "326">
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "464">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -748,174 +673,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4F4AFB55-AF68-404C-BB5C-1AA371EF41FD"
+            uuid = "D1699CC3-D811-4B38-B904-7DC24F1B4381"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Newproject/Network Manager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E50DE839-B944-4DD4-AD9E-59F5C5B7299B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AC008FA2-0440-408F-AED1-01072BCB881B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CFCEFB2E-30A4-4A44-A398-D5381CFA0790"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "95CAAC64-3958-40B4-8052-B36A56069303"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "98DDA656-2954-48A2-984A-017AA057A799"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4CCEA0E4-B107-46D7-95FB-908674EF1AAE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
-            landmarkName = "register(param:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7E40118F-CFB9-4161-9210-F6FF5069CFD7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Newproject/Network Manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
-            landmarkName = "register(param:completion:)"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getSession(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "7E40118F-CFB9-4161-9210-F6FF5069CFD7 - e9fd9632be1413b2"
+                  uuid = "D1699CC3-D811-4B38-B904-7DC24F1B4381 - 453d2792dc51d81f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "124"
-                  endingLineNumber = "124"
-                  offsetFromSymbolStart = "364">
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "322">
                </Location>
                <Location
-                  uuid = "7E40118F-CFB9-4161-9210-F6FF5069CFD7 - e9fd9632be1413b2"
+                  uuid = "D1699CC3-D811-4B38-B904-7DC24F1B4381 - 9422d9467fa8c860"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "124"
-                  endingLineNumber = "124"
-                  offsetFromSymbolStart = "482">
-               </Location>
-               <Location
-                  uuid = "7E40118F-CFB9-4161-9210-F6FF5069CFD7 - e9fd9632be1413b2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "Newproject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "124"
-                  endingLineNumber = "124"
-                  offsetFromSymbolStart = "2006">
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "322">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -923,62 +721,281 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9E1089BB-EB89-422B-9AA5-C8C9AF8C7CA6"
+            uuid = "4465E0E4-8603-47A8-9D41-ABAC1B8A4495"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Newproject/Network Manager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
-            landmarkName = "register(param:completion:)"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getSession(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "9E1089BB-EB89-422B-9AA5-C8C9AF8C7CA6 - e9fd9632be1413b2"
+                  uuid = "4465E0E4-8603-47A8-9D41-ABAC1B8A4495 - 453d2792dc51d8ba"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "124"
-                  endingLineNumber = "124"
-                  offsetFromSymbolStart = "364">
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "706">
                </Location>
                <Location
-                  uuid = "9E1089BB-EB89-422B-9AA5-C8C9AF8C7CA6 - e9fd9632be1413b2"
+                  uuid = "4465E0E4-8603-47A8-9D41-ABAC1B8A4495 - 453d2792dc51d8ba"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "124"
-                  endingLineNumber = "124"
-                  offsetFromSymbolStart = "482">
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "823">
                </Location>
                <Location
-                  uuid = "9E1089BB-EB89-422B-9AA5-C8C9AF8C7CA6 - e9fd9632be1413b2"
+                  uuid = "4465E0E4-8603-47A8-9D41-ABAC1B8A4495 - 9422d9467fa8c8c5"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Newproject.NetworkManager.register(param: Swift.Dictionary&lt;Swift.String, Any&gt;, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
                   moduleName = "Newproject"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "124"
-                  endingLineNumber = "124"
-                  offsetFromSymbolStart = "2006">
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "706">
+               </Location>
+               <Location
+                  uuid = "4465E0E4-8603-47A8-9D41-ABAC1B8A4495 - 9422d9467fa8c8c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "823">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "037D1808-B183-4FD3-ADF6-F5546D0D6452"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Newproject/Network Manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getSession(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "037D1808-B183-4FD3-ADF6-F5546D0D6452 - 453d2792dc51d8ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "706">
+               </Location>
+               <Location
+                  uuid = "037D1808-B183-4FD3-ADF6-F5546D0D6452 - 453d2792dc51d8ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "823">
+               </Location>
+               <Location
+                  uuid = "037D1808-B183-4FD3-ADF6-F5546D0D6452 - 9422d9467fa8c8c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "706">
+               </Location>
+               <Location
+                  uuid = "037D1808-B183-4FD3-ADF6-F5546D0D6452 - 9422d9467fa8c8c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "823">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BD61B69-D0DC-416D-9115-7C612E057D6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Newproject/Network Manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "getSession(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5BD61B69-D0DC-416D-9115-7C612E057D6F - 8953009cb87cef3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "727">
+               </Location>
+               <Location
+                  uuid = "5BD61B69-D0DC-416D-9115-7C612E057D6F - 8953009cb87cef3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "811">
+               </Location>
+               <Location
+                  uuid = "5BD61B69-D0DC-416D-9115-7C612E057D6F - 52b5aad0ad5564a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "754">
+               </Location>
+               <Location
+                  uuid = "5BD61B69-D0DC-416D-9115-7C612E057D6F - 52b5aad0ad5564a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "838">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94257083-B747-4D4F-BB42-27E3C95ECA24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Newproject/Network Manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getSession(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "94257083-B747-4D4F-BB42-27E3C95ECA24 - 8953009cb87ceffe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.getSession(completion: (Swift.Array&lt;Newproject.Task&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "863">
+               </Location>
+               <Location
+                  uuid = "94257083-B747-4D4F-BB42-27E3C95ECA24 - 52b5aad0ad556467"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newproject.NetworkManager.getSession(completion: (Newproject.Tasks) -&gt; ()) -&gt; ()"
+                  moduleName = "Newproject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yulya/Desktop/project/Newproject/Newproject/Network%20Manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "890">
                </Location>
             </Locations>
          </BreakpointContent>
